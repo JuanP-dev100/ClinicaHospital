@@ -43,5 +43,10 @@ public class  Medico extends Persona {
         this.tarjetaProfesional = tarjetaProfesional;
     }
 
+    @Override
+    public String toString() {
+        return "Medico{" + "especialidad=" + especialidad + ", tarjetaProfesional=" + tarjetaProfesional + '}';
+    }
+
     
 }
